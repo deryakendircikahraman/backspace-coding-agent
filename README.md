@@ -11,6 +11,10 @@ Backspace is an AI-powered coding agent that automatically creates pull requests
 - **Telemetry & Observability**: Comprehensive logging and performance tracking
 - **Modern UI**: Clean, responsive web interface for easy interaction
 
+<img width="1587" height="960" alt="image" src="https://github.com/user-attachments/assets/1b1cd286-4376-4498-8d34-cf247adf3788" />
+
+<img width="1587" height="960" alt="image" src="https://github.com/user-attachments/assets/237c4ed1-21b9-49bc-9352-26226ea7d769" />
+
 ## Architecture
 
 ### Core Components
