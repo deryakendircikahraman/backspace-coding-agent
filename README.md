@@ -2,7 +2,7 @@
 
 Backspace is an AI-powered coding agent that automatically creates pull requests to GitHub repositories based on natural language prompts. It clones repositories, analyzes codebases, generates code changes using AI, and creates pull requests with the implemented changes.
 
-## 🚀 Features
+## Features
 
 - **Streaming API**: Real-time progress updates using Server-Sent Events (SSE)
 - **AI-Powered Code Generation**: Uses OpenAI GPT-4 to understand and implement code changes
@@ -11,7 +11,7 @@ Backspace is an AI-powered coding agent that automatically creates pull requests
 - **Telemetry & Observability**: Comprehensive logging and performance tracking
 - **Modern UI**: Clean, responsive web interface for easy interaction
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -42,7 +42,7 @@ Backspace is an AI-powered coding agent that automatically creates pull requests
 - **Sandbox**: Local file system with process isolation
 - **Telemetry**: Custom logging system (extensible to OpenTelemetry)
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -81,7 +81,7 @@ Backspace is an AI-powered coding agent that automatically creates pull requests
 5. **Access the application**
    Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## 🎯 Usage
+## Usage
 
 ### Web Interface
 
@@ -119,7 +119,7 @@ Your GitHub Personal Access Token needs the following permissions:
 - `repo` (Full control of private repositories)
 - `workflow` (Update GitHub Action workflows)
 
-## 🧪 Testing
+## Testing
 
 ### Test Cases
 
@@ -165,14 +165,14 @@ Telemetry data is displayed in the web interface and can be extended to integrat
 - **Token Security**: Environment variables for sensitive API keys
 - **Error Handling**: Graceful error handling without exposing sensitive information
 
-## 🚧 Limitations
+## Limitations
 
 - Only works with public GitHub repositories
 - Requires valid GitHub and OpenAI API credentials
 - Limited to text-based code changes (no binary files)
 - Sandbox environment uses local file system (not cloud-based)
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - **Cloud Sandbox**: Integration with Modal, Daytona, or E2B
 - **Advanced Telemetry**: OpenTelemetry and LangSmith integration
@@ -180,7 +180,7 @@ Telemetry data is displayed in the web interface and can be extended to integrat
 - **Code Review**: AI-powered code review and suggestions
 - **Template System**: Predefined templates for common operations
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -188,17 +188,13 @@ Telemetry data is displayed in the web interface and can be extended to integrat
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenAI for providing the GPT-4 API
 - GitHub for the comprehensive REST API
 - Next.js team for the excellent framework
 - The open-source community for inspiration and tools
-
----
-
-**Built with ❤️ for the hackathon community** 
