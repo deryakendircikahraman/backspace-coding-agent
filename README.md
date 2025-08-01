@@ -37,7 +37,7 @@ Backspace is an AI-powered coding agent that automatically creates pull requests
 7. **Pull Request Creation**: Creates a pull request with detailed description
 8. **Real-time Updates**: Streams progress throughout the entire process
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Frontend**: Next.js 14, React 18, TypeScript
 - **Backend**: Next.js API Routes, Server-Sent Events
@@ -151,7 +151,7 @@ Your GitHub Personal Access Token needs the following permissions:
    }
    ```
 
-## 📊 Telemetry
+## Telemetry
 
 The system includes comprehensive telemetry tracking:
 
@@ -162,7 +162,7 @@ The system includes comprehensive telemetry tracking:
 
 Telemetry data is displayed in the web interface and can be extended to integrate with OpenTelemetry or LangSmith.
 
-## 🔒 Security
+## Security
 
 - **Sandboxed Execution**: All code operations run in isolated environments
 - **Input Validation**: Comprehensive validation of repository URLs and prompts
