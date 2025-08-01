@@ -17,7 +17,7 @@ body {
 }
 
 .btn-primary {
-  background: #8b5cf6;
+  background: #10b981;
   color: white;
   font-weight: 500;
   padding: 12px 24px;
@@ -29,7 +29,7 @@ body {
 }
 
 .btn-primary:hover:not(:disabled) {
-  background: #7c3aed;
+  background: #059669;
   transform: translateY(-1px);
 }
 
@@ -49,8 +49,8 @@ body {
 
 .input-field:focus {
   outline: none;
-  border-color: #8b5cf6;
-  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.1);
 }
 
 .input-field::placeholder {
@@ -74,7 +74,7 @@ body {
 }
 
 .text-gradient {
-  background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -155,8 +155,8 @@ body {
 .mt-1 { margin-top: 0.25rem; }
 .text-2xl { font-size: 1.5rem; }
 .text-gray-900 { color: #111827; }
-.bg-primary-100 { background-color: #f3e8ff; }
-.text-primary-600 { color: #8b5cf6; }
+.bg-primary-100 { background-color: #d1fae5; }
+.text-primary-600 { color: #10b981; }
 .bg-green-100 { background-color: #d1fae5; }
 .text-green-600 { color: #10b981; }
 .grid-cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -170,15 +170,15 @@ body {
 .px-2 { padding-left: 0.5rem; padding-right: 0.5rem; }
 .py-1 { padding-top: 0.25rem; padding-bottom: 0.25rem; }
 .rounded { border-radius: 0.25rem; }
-.bg-primary-500 { background-color: #8b5cf6; }
+.bg-primary-500 { background-color: #10b981; }
 .flex-shrink-0 { flex-shrink: 0; }
 .w-2 { width: 0.5rem; }
 .h-2 { height: 0.5rem; }
 .rounded-full { border-radius: 9999px; }
-.bg-gradient-to-r { background: linear-gradient(to right, #faf5ff, #f3e8ff); }
-.from-primary-50 { background: linear-gradient(to right, #faf5ff, #f3e8ff); }
-.to-purple-50 { background: linear-gradient(to right, #faf5ff, #f3e8ff); }
-.border-primary-200 { border-color: #e9d5ff; }
+.bg-gradient-to-r { background: linear-gradient(to right, #f0fdf4, #d1fae5); }
+.from-primary-50 { background: linear-gradient(to right, #f0fdf4, #d1fae5); }
+.to-purple-50 { background: linear-gradient(to right, #f0fdf4, #d1fae5); }
+.border-primary-200 { border-color: #a7f3d0; }
 .text-xs { font-size: 0.75rem; }
 .flex-wrap { flex-wrap: wrap; }
 .animate-spin { animation: spin 1s linear infinite; }
